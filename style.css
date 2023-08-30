@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+html,body{
+    background: linear-gradient(to right, #23a0ca 0%, #9bcbed 80%);
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'lato',sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height : 60px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width : 64px;
+    height: 60px;
+    border-radius: 20%;
+    padding: 0px 5px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 15px auto;
+    padding: 15px;
+    width: 70%;
+    border-radius: 3%;
+    background-image: url('dark-music.jpg');
+    background-size: 100% 100%;
+}
+.gif{
+    position: absolute;
+    right: 16%;
+    bottom: 12%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+}
+
+
+
+.songItem img{
+    height: 45px;
+    margin: 0px 5px;
+    border-radius: 22px;
+}
+
+.bottom{
+    position: sticky;
+    height: 117px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#masterSongInfo{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.icons{
+    margin-top: 25px;
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.timeStamp{
+    margin: 0px 25px;
+}
+
+i{
+    cursor: pointer;
+}
